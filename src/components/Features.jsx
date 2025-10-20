@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calculator, Database, Users, Wallet, BarChart3, Clock, Shield, FileText, TrendingUp } from 'lucide-react';
+import { Calculator, Database, Users, Wallet, BarChart3, Clock, Shield, FileText, TrendingUp, Monitor, Download } from 'lucide-react';
 
 const features = [
   {
@@ -46,6 +46,16 @@ const features = [
     icon: <TrendingUp className="text-orange-400" size={22} />,
     title: 'واحد پول ریال/تومان',
     desc: 'ثبت و گزارش‌گیری با واحد ریال و تومان، نمایش پویا و گرد کردن هوشمند.'
+  },
+  {
+    icon: <Monitor className="text-orange-400" size={22} />,
+    title: 'نسخه ویندوز دسکتاپ',
+    desc: 'نصب آفلاین، کاربری سریع دسکتاپ، همگام‌سازی ابری اختیاری با نسخه وب.'
+  },
+  {
+    icon: <Download className="text-orange-400" size={22} />,
+    title: 'نصب ساده و خودکار',
+    desc: 'راه‌انداز یک‌کلیکی، ایجاد پایگاه‌داده محلی و بروزرسانی درون‌برنامه‌ای.'
   }
 ];
 
@@ -56,7 +66,7 @@ export default function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-2xl sm:text-4xl font-extrabold">طراحی‌شده برای پیمان‌کاران حرفه‌ای</h2>
-          <p className="text-white/70 mt-3 text-sm sm:text-base">همه ابزارهای لازم برای کنترل مالی پروژه‌های ساختمانی، راه‌سازی و تاسیسات در یک پلتفرم.</p>
+          <p className="text-white/70 mt-3 text-sm sm:text-base">نسخه ویندوز و نسخه وب با یک دیتای یکسان؛ کنترل مالی پروژه‌ها، صورت‌وضعیت‌ها، انبار و گزارش‌های تحلیلی.</p>
         </div>
 
         <div className="mt-10 grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
@@ -74,8 +84,8 @@ export default function Features() {
         </div>
 
         <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a href="#contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-md bg-orange-500 hover:bg-orange-500/90 text-black font-semibold transition-colors">
-            درخواست دمو و مشاوره
+          <a href="/downloads/asiriagent-setup-x64.exe" className="inline-flex items-center gap-2 px-6 py-3 rounded-md bg-orange-500 hover:bg-orange-500/90 text-black font-semibold transition-colors">
+            دانلود نسخه ویندوز (x64)
           </a>
           <a href="#contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-md bg-white/5 hover:bg-white/10 border border-white/10 text-white/90 transition-colors">
             صحبت با کارشناس فروش

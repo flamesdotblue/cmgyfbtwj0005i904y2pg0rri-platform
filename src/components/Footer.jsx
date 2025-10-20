@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, MapPin, Download } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -8,15 +8,18 @@ export default function Footer() {
         <div>
           <h3 className="font-bold text-lg">اسیری پیمان asiriagent</h3>
           <p className="text-white/70 mt-2 text-sm leading-7">
-            راهکار یکپارچه حسابداری پیمان‌کاری برای مدیریت مالی پروژه‌ها، صورت‌وضعیت‌ها، انبار و گزارش‌های تحلیلی.
+            راهکار یکپارچه حسابداری پیمان‌کاری برای مدیریت مالی پروژه‌ها، صورت‌وضعیت‌ها، انبار و گزارش‌های تحلیلی. پشتیبانی کامل از ریال / تومان.
           </p>
+          <a href="/downloads/asiriagent-setup-x64.exe" className="mt-3 inline-flex items-center gap-2 text-sm text-black bg-orange-500 hover:bg-orange-500/90 px-3 py-2 rounded-md font-semibold">
+            <Download size={16} /> دانلود نسخه ویندوز
+          </a>
         </div>
         <div>
           <h4 className="font-semibold">ارتباط با ما</h4>
           <ul className="mt-3 space-y-2 text-sm text-white/80">
             <li className="flex items-center gap-2">
               <Phone size={16} className="text-orange-400" />
-              <a href="tel:+989177796899" className="hover:text-white">0917 779 6899</a>
+              <a href="tel:+989177796899" className="hover:text-white">09177796899</a>
             </li>
             <li className="flex items-center gap-2">
               <Mail size={16} className="text-orange-400" />
@@ -31,11 +34,12 @@ export default function Footer() {
         <div>
           <h4 className="font-semibold">شروع سریع</h4>
           <div className="mt-3 flex flex-col sm:flex-row md:flex-col gap-2">
-            <a href="#demo" className="inline-flex items-center justify-center px-4 py-2 rounded-md bg-orange-500 hover:bg-orange-500/90 text-black font-semibold transition-colors">رزرو دمو</a>
+            <a href="#download" className="inline-flex items-center justify-center px-4 py-2 rounded-md bg-orange-500 hover:bg-orange-500/90 text-black font-semibold transition-colors">دریافت ویندوز</a>
             <a href="#features" className="inline-flex items-center justify-center px-4 py-2 rounded-md bg-white/5 hover:bg-white/10 border border-white/10 text-white/90 transition-colors">مشاهده امکانات</a>
           </div>
-          <div className="mt-4 text-xs text-white/70">
-            پشتیبانی واحد پول: ریال / تومان
+          <div className="mt-4 text-xs text-white/70 space-y-1">
+            <div>پشتیبانی واحد پول: ریال / تومان</div>
+            <div>نسخه‌ها: Windows Desktop + Web</div>
           </div>
         </div>
       </div>
