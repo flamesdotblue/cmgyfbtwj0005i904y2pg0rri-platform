@@ -22,9 +22,9 @@ export default function Navbar() {
         </nav>
 
         <div className="flex items-center gap-2">
-          <a href="tel:+98912XXXXXXX" className="inline-flex items-center gap-2 px-3 py-2 rounded-md bg-white/5 hover:bg-white/10 border border-white/10 transition-colors">
+          <a href="tel:+989177796899" className="inline-flex items-center gap-2 px-3 py-2 rounded-md bg-white/5 hover:bg-white/10 border border-white/10 transition-colors">
             <Phone size={16} className="text-orange-400" />
-            <span className="text-xs sm:text-sm">تماس</span>
+            <span className="text-xs sm:text-sm">0917 779 6899</span>
           </a>
           <a href="mailto:hello@asiriagent.com" className="hidden sm:inline-flex items-center gap-2 px-3 py-2 rounded-md bg-orange-500 hover:bg-orange-500/90 text-black font-medium transition-colors">
             <Mail size={16} />

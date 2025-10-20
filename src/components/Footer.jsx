@@ -16,7 +16,7 @@ export default function Footer() {
           <ul className="mt-3 space-y-2 text-sm text-white/80">
             <li className="flex items-center gap-2">
               <Phone size={16} className="text-orange-400" />
-              <a href="tel:+98912XXXXXXX" className="hover:text-white">+98 912 XXX XXXX</a>
+              <a href="tel:+989177796899" className="hover:text-white">0917 779 6899</a>
             </li>
             <li className="flex items-center gap-2">
               <Mail size={16} className="text-orange-400" />
@@ -33,6 +33,9 @@ export default function Footer() {
           <div className="mt-3 flex flex-col sm:flex-row md:flex-col gap-2">
             <a href="#demo" className="inline-flex items-center justify-center px-4 py-2 rounded-md bg-orange-500 hover:bg-orange-500/90 text-black font-semibold transition-colors">رزرو دمو</a>
             <a href="#features" className="inline-flex items-center justify-center px-4 py-2 rounded-md bg-white/5 hover:bg-white/10 border border-white/10 text-white/90 transition-colors">مشاهده امکانات</a>
+          </div>
+          <div className="mt-4 text-xs text-white/70">
+            پشتیبانی واحد پول: ریال / تومان
           </div>
         </div>
       </div>

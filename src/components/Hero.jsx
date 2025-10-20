@@ -44,11 +44,12 @@ export default function Hero() {
                 پشتیبانی فعال
               </div>
             </div>
+            <div className="mt-2 inline-flex items-center gap-2 w-fit rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[11px] text-white/80">
+              واحد پول: ریال / تومان
+            </div>
           </div>
 
-          <div className="md:block hidden" aria-hidden>
-            {/* Empty grid column to keep the Spline visible on the right */}
-          </div>
+          <div className="md:block hidden" aria-hidden />
         </div>
       </div>
     </section>
